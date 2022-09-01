@@ -26,7 +26,16 @@ void overflow_scanf() {
     printf("Favorite food: %s\n", food);
 }
 
+void input_with_fget() {
+    char food[5];
+    printf("Enter favorite food: ");
+    fgets(food, sizeof food, stdin);
+
+    printf("Favorite food: %s\n", food);
+}
+
 int main() {
-    overflow_scanf();
+//    overflow_scanf();
+    input_with_fget();
     return 0;
 }
