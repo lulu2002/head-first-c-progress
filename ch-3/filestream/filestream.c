@@ -23,6 +23,11 @@ int main(int argc, char *argv[]) {
             fprintf(others_file, "%s\n", line);
     }
 
+
+    unsigned long long c = 1111;
+
+    long java = 1111;
+
     fclose(in);
     fclose(file1);
     fclose(file2);
