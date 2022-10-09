@@ -15,5 +15,5 @@ void printInformation(struct fish f) {
 
 int main() {
     struct fish snappy = {"Snappy", "Piranha", 69, 4};
-    printInformation(snappy)
+    printInformation(snappy);
 }
